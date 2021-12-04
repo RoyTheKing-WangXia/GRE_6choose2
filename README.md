@@ -1,5 +1,5 @@
 # GRE_6choose2
-# The word list is based on 真经GRE等价词汇总（2021版）by 张巍老师。
+# 所有单词来源：真经GRE等价词汇总（2021版）by 张巍老师。
 ## For those who struggle in 6 choose 2 type of questions.
 ## The program test your ability to pick up the correct pair of words within 6 words.
 ## Only 1 pair of words need to be choose
