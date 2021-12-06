@@ -33,7 +33,8 @@ def readInFile(file_path):
                 word_dict[line_list[i]] = list_in_dict
             else:
                 for k in list_in_dict:
-                    word_dict[line_list[i]].append(k)
+                    if k not in word_dict[line_list[i]]:
+                        word_dict[line_list[i]].append(k)
     return word_dict, word_list
 
 def wordTest(word_dict, word_list, word_number, round_number):
